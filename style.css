@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner {
+    background-image: url(IMAGES/hero.jpg);
+    background-position: center;
+    background-size: 100%;
+    width:1464px;
+    height: 932px;
+    top: 24px;
+    left: 24px;
+}
+.banner_text hr{
+    font:100;
+    border-top: 5px solid #000000;
+    width: 10%; 
+    margin: auto;
+}
+
+.Logo {
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+   float: left;
+
+}
+
+
+.logo {
+    width: 140px;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    border-radius: 50%;
+}
+
+.banner_text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 180px;
+}
+
+.banner_text h1 {
+    font-size: 130px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.banner_text p {
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+
+
+#navbar {
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+
+#navbar nav {
+    width: Fixed (1,510px);
+height: Hug (43px);
+top: 43px;
+padding: 0px 40px 0px 40px;
+justify: space-between;
+
+}
+
+
+#navbar li{ 
+    width: Hug (204px);
+    height: Hug (19px);
+    top: 56px;
+    left: 654px;
+    gap: 73px;  
+}
+
+#navbar li a .about{ 
+ 
+    width: 55px;
+    height: 19px;
+
+}
+#navbar li a .articles{ 
+ 
+    width: 55px;
+    height: 19px;
+
+}
+
+
+#navbar button{
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+@media only screen and (min-width: 769px) {
+    #navbar {
+        display: block;
+        width: auto;
+        height: 50px;
+        position: static;
+        background: none;
+        z-index: 1;
+        font-size: 20px;
+    }
+
+
+   
+
+
+}
+
+@media screen and(max-width:770px) {
+    .banner_text h1 {
+        font-size: 44px;
+    }
+
+    .banner-button a {
+        display: block;
+        margin: 20px auto;
+    }
+
+}
+
+
+.title-text {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text h1 {
+    font-size: 50px;
+}
+
+.title-text p {
+    margin: auto;
+    font-size: 20px;
+    color: #a96f01e1;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+.features h1{
+    color: #050505e1;
+}
+
+
+
+.features-img img {
+   
+    width: 752px;
+    height: 835px;
+    top: 2035px;
+
+    
+}
+.container {
+    width: Hug (580px);
+   height: Hug (347px);
+  top: 2259px;
+  left: 854px;
+  gap: 84px;
+ 
+
+}
+.container p{
+   
+   
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: justified;
+    
+
+}
+
+.container h1{
+    font-family: Inter;
+    width: Hug (163px);
+height: Hug (73px);
+gap: 32px;
+}
+
+.container hr{
+    font:100;
+    border-top: 2px solid #000000;
+    width: 5%; 
+    margin: auto;
+}
+
+.features-img .desc{
+    width: 756px;
+height: 835px;
+top: 2035px;
+left: 752px;
+float: right;
+
+}
+
+
+
+@media screen and(max-width:770px) {
+    .title-text h1 {
+        font-size: 15px;
+    }
+
+    .features {
+        flex-basis: 100%;
+    }
+
+    .features-img {
+        flex-basis: 100%;
+    }
+
+    .features-img img {
+        width: 100%;
+    }
+}
+
+#card {
+    width: Hug (1,272px);
+height: Hug (593px);
+top: 1199px;
+left: 120px;
+gap: 144px;  
+
+}
+
+.title-text hr{
+    font:100;
+    border-top: 2px solid #000000;
+    width: 5%; 
+    margin: auto;
+}
+
+.card-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-inline-color: rgb(110, 109, 109);
+}
+
+.cards {
+    width: 282px;
+    height: 376px;
+    
+    
+}
+
+.cards img {
+    width: 282px;
+height: 188px;
+
+}
+
+.cards-desc p {  
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+
+.cards-desc {
+    width: Hug (213px);
+    height: Hug (74px);
+    gap: 32px;
+}
+
+.cards-desc hr {
+ 
+    border-top: 3px solid #000000;
+    width: 15%; 
+    margin: auto;
+
+}
+
+
+
+.cards:hover .cards-desc {
+    bottom: 20%;
+    opacity: 1;
+}
+
+@media screen and(max-width:770px) {
+    .cards {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .cards img {
+        flex-basis: 100%;
+    }
+
+    .cards-desc p {
+        font-size: 12px;
+
+    }
+
+    hr {
+        margin: 5px auto;
+    }
+
+    .card-box {
+        flex-basis: 100%;
+
+    }
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    background-color: #003380;
+}
+
+.testmonies-img {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.testmonies-img img {
+    width: 70%;
+    border-radius: 40px;
+    height: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+#Testimonies {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.testimonies-box {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonies-desc h1 {
+    font-size: 50px;
+}
+
+.testimonies-desc p {
+    margin: auto;
+    font-size: 20px;
+    color: #a96f01e1;
+    z-index: 1;
+    position: relative;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.testimonies-desc p::after {
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#a96f01e1, #fff);
+    position: absolute;
+    top: -20;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #000;
+}
