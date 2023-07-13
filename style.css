@@ -54,43 +54,52 @@
 }
 
 
-
-
-#navbar {
-    width: 120px;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 2;
-    display: none;
+button{
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
 }
+.frame2{
+width: Fixed 166px;
+height: 43px;
+padding: 12px 16px 12px 16px;
+border: 2px;
+gap: 10px;
 
-#navbar nav {
+}
+.nav{
     width: Fixed (1,510px);
-height: Hug (43px);
-top: 43px;
-padding: 0px 40px 0px 40px;
-justify: space-between;
+    height: Hug (43px);
+    top: 43px;
+    padding: 0px 40px 0px 40px;
+    justify: space-between;
+     
+}
+
+ li {
+   
+    display: inline;
+ }
+
+.frame10{
+    width: 204px;
+height: 19px;
+top: 56px;
+left: 654px;
+gap: 73px;
 
 }
 
-
-#navbar li{ 
-    width: Hug (204px);
-    height: Hug (19px);
-    top: 56px;
-    left: 654px;
-    gap: 73px;  
-}
-
-#navbar li a .about{ 
+.about{ 
  
     width: 55px;
     height: 19px;
 
 }
-#navbar li a .articles{ 
+ .articles{ 
  
     width: 55px;
     height: 19px;
@@ -105,6 +114,69 @@ font-weight: 300;
 line-height: 19px;
 letter-spacing: 0em;
 text-align: left;
+}
+
+.frame22{
+    width: 586px;
+height: 240px;
+top: 2936px;
+left: 463px;
+gap: 32px;
+
+}
+
+.frame21{
+    width: 586px;
+height:169px;
+gap: 32px;
+
+}
+
+.frame19{
+    width: 194px;
+height: 70px;
+gap: 12px;
+
+}
+
+.frame19 h2{  
+font-family: Inter;
+font-size: 32px;
+font-weight: 300;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.frame19 p{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.frame20{
+    width: Fixed 586px;
+    height: Hug 67px;
+    padding: 24px 32px 24px 32px;
+    gap: 10px;
+     
+}
+
+.frame20 p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 79px;
+height: 19px;
+opacity: 0.5px;
+
 }
 
 @media only screen and (min-width: 769px) {
@@ -172,12 +244,11 @@ text-align: left;
     
 }
 .container {
-    width: Hug (580px);
-   height: Hug (347px);
+    width: 580px;
+   height:347px;
   top: 2259px;
   left: 854px;
   gap: 84px;
- 
 
 }
 .container p{
@@ -189,31 +260,44 @@ text-align: left;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: justified;
-    
 
 }
 
 .container h1{
     font-family: Inter;
-    width: Hug (163px);
-height: Hug (73px);
-gap: 32px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 163px;
+height: 39px;
+
+margin-left: auto;
+    margin-right: auto;
+    width: 8em
+
+
 }
 
 .container hr{
-    font:100;
+   
     border-top: 2px solid #000000;
-    width: 5%; 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+gap: 32px;
+width: 40px;
+
+
 }
 
-.features-img .desc{
-    width: 756px;
-height: 835px;
-top: 2035px;
-left: 752px;
+.desc{
+display: flex;
 float: right;
 
+width: Hug (163px);
+height: Hug (73px);
+gap: 32px;
 }
 
 
@@ -345,68 +429,7 @@ text-align: center;
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #0056b3;
-}
 
-.btn:active {
-    background-color: #003380;
-}
-
-.testmonies-img {
-    flex-basis: 50%;
-    margin: auto;
-}
-
-.testmonies-img img {
-    width: 70%;
-    border-radius: 40px;
-    height: 100%;
-    width: 200px;
-    height: 200px;
-}
-
-#Testimonies {
-    flex-basis: 50%;
-    margin: auto;
-}
-
-.testimonies-box {
-    width: 40%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-
-.testimonies-desc h1 {
-    font-size: 50px;
-}
-
-.testimonies-desc p {
-    margin: auto;
-    font-size: 20px;
-    color: #a96f01e1;
-    z-index: 1;
-    position: relative;
-    font-weight: bold;
-    display: inline-block;
-}
-
-.testimonies-desc p::after {
-    content: '';
-    width: 50px;
-    height: 35px;
-    background: linear-gradient(#a96f01e1, #fff);
-    position: absolute;
-    top: -20;
-    left: 0;
-    z-index: -1;
-    transform: rotate(10deg);
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-}
 
 footer {
     background-color: #f0f0f0;
