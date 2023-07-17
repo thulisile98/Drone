@@ -691,3 +691,7 @@ background:rgba(203, 222, 236, 1);
   font-stretch: normal;
   text-decoration: none;
 }
+
+.footer{
+  background: var(--white);
+}
