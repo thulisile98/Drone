@@ -97,7 +97,6 @@ background: var(--black);
   font-weight: 300;
 }
 .home-frame2 {
-
   gap: 10px;
   width: 250px;
   display: flex;
@@ -106,7 +105,7 @@ background: var(--black);
   flex-shrink: 0;
   border-color:var(--black);
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   justify-content: center;
 }
 .home-text06 {
